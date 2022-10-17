@@ -1,0 +1,91 @@
+body {
+    height: auto;
+    width: auto;
+    background: url(http://www.designals.net/wp-content/uploads/2011/09/PaperTexture-21.jpg);
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.blacktopline {
+    height: 10px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blacktopline1 {
+    height: 10px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blacktopline2 {
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.fecha,
+.namenews,
+.version,
+.estadisticas {
+    display: inline-flex;
+    font-family: 'UnifrakturCook';
+    font-family: 'UnifrakturMaguntia';
+}
+
+.namenews{
+
+    font-size: 11.5vh;
+    padding: 20px 5px;
+    color: #000000;
+    text-align: center;
+
+}
+
+.subtitulo, .estadisticas {
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'UnifrakturCook';
+    font-family: 'UnifrakturMaguntia';
+}
+
+.version {
+    font-size: 3vh;
+    float: right;
+    padding: 55px 0;
+    border-left: solid black;
+    padding: 90px 0 0 10px;
+}
+
+.fecha {
+    font-size: 3vh;
+    float: left;
+    padding: 70px 10px 0 0;
+    text-align: center;
+    border-right: solid black;
+
+}
+
+.col-4,
+.fst-italic {
+
+    column-gap: 40px;
+    font-size: 2.5vh;
+    padding: 10px;
+    float: center;
+    font-family: 'Playfair Display';
+    font-family: 'UnifrakturCook',
+
+}
+
+img {
+    padding: 30px 0 0 0;
+}
